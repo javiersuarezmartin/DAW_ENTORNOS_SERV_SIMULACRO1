@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumno - Grupo</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-global">
+        <form action="../php/grupo.php" method="POST" class="form-body">
+
+            <div class="grid">
+    
+                <div class="container">    
+                    <div class="formulario">
+                        <img src="../img/alumno.svg" class="logo" alt="Alumno">
+                        <h1>DATOS ALUMNO 1</h1>
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" placeholder="Nombre" name="nombre" required>
+                        <label for="edad">EDAD (1-100)</label>
+                        <input type="number" placeholder="Edad" name="edad" min="1" max="100" required>
+                        <label for="curso">CURSO (1-5)</label>
+                        <input type="number" placeholder="Curso" name="curso" min="1" max="5" required>
+                    </div>
+                </div>
+    
+                <div class="container">    
+                    <div class="formulario">
+                        <img src="../img/alumno.svg" class="logo" alt="Alumno">
+                        <h1>DATOS ALUMNO 2</h1>
+                        <label for="nombre2">NOMBRE</label>
+                        <input type="text" placeholder="Nombre" name="nombre2" required>
+                        <label for="edad2">EDAD (1-100)</label>
+                        <input type="number" placeholder="Edad" name="edad2" min="1" max="100" required>
+                        <label for="curso2">CURSO (1-5)</label>
+                        <input type="number" placeholder="Curso" name="curso2" min="1" max="5" required>
+                    </div>
+                </div>            
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </div>
+    
+</body>
+
+</html>
